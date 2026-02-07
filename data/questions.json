@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Walentynkowe pytania (50) — w tym 10 lekko mocniejszych",
+    "total": 50,
+    "spicy_count": 10
+  },
+  "questions": [
+    { "id": 1, "spicy": false, "text": "Co Ci się we mnie najbardziej spodobało na początku?" },
+    { "id": 2, "spicy": false, "text": "Kiedy pierwszy raz pomyślałeś/aś: \"to jest ktoś wyjątkowy\"?" },
+    { "id": 3, "spicy": false, "text": "Za co najbardziej mnie podziwiasz?" },
+    { "id": 4, "spicy": false, "text": "Jaki mój mały nawyk uwielbiasz najbardziej?" },
+    { "id": 5, "spicy": false, "text": "Co we mnie jest totalnie niedoceniane, a Ty to widzisz?" },
+    { "id": 6, "spicy": false, "text": "Jaki był Twój ulubiony moment, kiedy ostatnio śmialiśmy się razem?" },
+    { "id": 7, "spicy": false, "text": "Co w mojej osobowości najbardziej Ci pasuje do Twojej?" },
+    { "id": 8, "spicy": false, "text": "Jaki komplement ode mnie najbardziej lubisz słyszeć?" },
+    { "id": 9, "spicy": false, "text": "Jaki jest Twój ulubiony sposób na spędzenie ze mną zwykłego wieczoru?" },
+    { "id": 10, "spicy": false, "text": "Co robię, że czujesz się przy mnie bezpiecznie?" },
+
+    { "id": 11, "spicy": false, "text": "Jaki moment z nami najczęściej wraca Ci w głowie?" },
+    { "id": 12, "spicy": false, "text": "Jak byś mnie opisał/a komuś w trzech zdaniach?" },
+    { "id": 13, "spicy": false, "text": "Co we mnie najbardziej Cię rozczula?" },
+    { "id": 14, "spicy": false, "text": "Kiedy czujesz się przy mnie najbardziej \"sobą\"?" },
+    { "id": 15, "spicy": false, "text": "Jaki jest Twój ulubiony \"nasz\" żart albo tekst?" },
+    { "id": 16, "spicy": false, "text": "Co jest najbardziej wyjątkowe w naszej relacji?" },
+    { "id": 17, "spicy": false, "text": "Jak wyglądałby nasz idealny dzień bez pośpiechu?" },
+    { "id": 18, "spicy": false, "text": "Co chcesz, żebym robił/a częściej, bo to Ci daje dużo?" },
+    { "id": 19, "spicy": false, "text": "Jakie miejsce najbardziej chcesz ze mną odwiedzić i dlaczego?" },
+    { "id": 20, "spicy": false, "text": "Jaki gest z mojej strony znaczy dla Ciebie najwięcej?" },
+
+    { "id": 21, "spicy": false, "text": "Co jest dla Ciebie najbardziej romantyczne (tak ogólnie)?" },
+    { "id": 22, "spicy": false, "text": "Co jest najbardziej romantyczne, co ja dla Ciebie zrobiłem/am?" },
+    { "id": 23, "spicy": false, "text": "Jaki był nasz najbardziej \"filmowy\" moment?" },
+    { "id": 24, "spicy": false, "text": "Jaką jedną rzecz we mnie chciał(a)byś zachować \"na zawsze\"?" },
+    { "id": 25, "spicy": false, "text": "Jak wyglądałaby nasza idealna walentynkowa randka?" },
+    { "id": 26, "spicy": false, "text": "Co sprawia, że czujesz się kochany/a w praktyce (konkret)?" },
+    { "id": 27, "spicy": false, "text": "Jaki mój tekst albo sposób mówienia najbardziej Cię bawi?" },
+    { "id": 28, "spicy": false, "text": "Jaka jest jedna rzecz, którą chciał(a)byś ze mną przeżyć pierwszy raz?" },
+    { "id": 29, "spicy": false, "text": "Jak wyobrażasz sobie nas za rok, jeśli wszystko pójdzie po naszej myśli?" },
+    { "id": 30, "spicy": false, "text": "Co jest Twoją ulubioną rzeczą w naszych rozmowach?" },
+
+    { "id": 31, "spicy": false, "text": "Co wolisz: spontaniczną randkę czy zaplanowaną? I jaką byś wybrał/a ze mną?" },
+    { "id": 32, "spicy": false, "text": "Jakie trzy rzeczy najbardziej cenisz w związku?" },
+    { "id": 33, "spicy": false, "text": "Co jest Twoim ulubionym wspomnieniem związanym ze mną?" },
+    { "id": 34, "spicy": false, "text": "Jaka piosenka najlepiej pasuje do nas i czemu?" },
+    { "id": 35, "spicy": false, "text": "Jakie jedzenie albo miejsce kojarzy Ci się z nami?" },
+    { "id": 36, "spicy": false, "text": "Co robimy razem, co zawsze poprawia Ci humor?" },
+    { "id": 37, "spicy": false, "text": "Kiedy ostatnio poczułeś/aś się przy mnie naprawdę doceniony/a?" },
+    { "id": 38, "spicy": false, "text": "Co we mnie najbardziej Cię zaskoczyło (pozytywnie)?" },
+    { "id": 39, "spicy": false, "text": "Jaką wspólną tradycję chciał(a)byś zbudować z nami?" },
+    { "id": 40, "spicy": false, "text": "Co jest Twoim ulubionym sposobem na okazywanie uczuć?" },
+
+    { "id": 41, "spicy": true, "text": "Co najbardziej Cię we mnie kręci — jedna rzecz, której nie umiesz ignorować?" },
+    { "id": 42, "spicy": true, "text": "Jaki mój gest albo spojrzenie działa na Ciebie natychmiast?" },
+    { "id": 43, "spicy": true, "text": "Jaki typ bliskości lubisz najbardziej: przytulanie, pocałunki, czy coś jeszcze innego (i czemu)?" },
+    { "id": 44, "spicy": true, "text": "Gdzie najbardziej lubisz, kiedy Cię dotykam (i gdzie nie)?" },
+    { "id": 45, "spicy": true, "text": "Jaki jest Twój ulubiony moment, kiedy jesteśmy bardzo blisko siebie?" },
+    { "id": 46, "spicy": true, "text": "Jaka moja wiadomość albo tekst najbardziej Cię nakręca?" },
+    { "id": 47, "spicy": true, "text": "Jaka jest jedna rzecz, której chciał/ałbyś spróbować ze mną, ale jeszcze o tym nie gadaliśmy?" },
+    { "id": 48, "spicy": true, "text": "Jak wygląda Twoja idealna noc ze mną — od początku do końca (bez wchodzenia w detale, jeśli nie chcesz)?" },
+    { "id": 49, "spicy": true, "text": "Co jest Twoją największą \"słabością\" jeśli chodzi o mnie?" },
+    { "id": 50, "spicy": true, "text": "Powiedz jedno zdanie, które chciał(a)byś usłyszeć ode mnie, kiedy robi się gorąco." }
+  ]
+}
