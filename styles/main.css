@@ -1,11 +1,21 @@
-html, body { height: 100%; margin: 0; overflow: hidden;  }
+html, body { 
+    height: 100%; margin: 0; overflow: hidden;  
+    height: 100vh;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
 
 body{
-    padding: 5px;
+    padding: 
+        max(5px, env(safe-area-inset-top)) 
+        max(5px, env(safe-area-inset-right)) 
+        max(5px, env(safe-area-inset-bottom)) 
+        max(5px, env(safe-area-inset-left));
     background: linear-gradient(to right, #ff00c8, #c7009c, #ff0095, #ff0095, #f700ff, #ff00bf);
     animation: animationGradient 10s infinite linear;
     background-size: 200%;
-    font-family: 'Gloria Hallelujah', cursive;
+
+    
 }
 @keyframes animationGradient{
     0%{
@@ -150,14 +160,14 @@ p {
 
 @keyframes splitLeft{
   0%   { transform: translate(-50%, -50%) translate(0,0) rotate(0deg) scale(1); }
-  25%  { transform: translate(-50%, -50%) translate(-230px,-180px) rotate(-90deg) scale(0.5); }
-  75%  { transform: translate(-50%, -50%) translate(-230px,-180px) rotate(-90deg) scale(0.5); }
+  25%  { transform: translate(-50%, -50%) translate(-230px,-120px) rotate(-90deg) scale(0.4); }
+  75%  { transform: translate(-50%, -50%) translate(-230px,-120px) rotate(-90deg) scale(0.4); }
   100% { transform: translate(-50%, -50%) translate(0,0) rotate(0deg) scale(1); }
 }
 
 @keyframes splitRight{
   0%   { transform: translate(-50%, -50%) translate(0,0) rotate(0deg) scale(1); }
-  25%  { transform: translate(-50%, -50%) translate(230px,180px) rotate(90deg) scale(0.5); }
-  75%  { transform: translate(-50%, -50%) translate(230px,180px) rotate(90deg) scale(0.5); }
+  25%  { transform: translate(-50%, -50%) translate(230px,120px) rotate(90deg) scale(0.4); }
+  75%  { transform: translate(-50%, -50%) translate(230px,120px) rotate(90deg) scale(0.4); }
   100% { transform: translate(-50%, -50%) translate(0,0) rotate(0deg) scale(1); }
 }
