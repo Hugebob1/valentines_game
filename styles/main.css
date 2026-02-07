@@ -1,20 +1,40 @@
-html, body { 
-    height: 100%; margin: 0; overflow: hidden;  
-    padding: 0;
-    font-family: 'Nunito', sans-serif;
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
 }
 
 body{
-    padding: 
-        max(5px, env(safe-area-inset-top)) 
-        max(5px, env(safe-area-inset-right)) 
-        max(5px, env(safe-area-inset-bottom)) 
-        max(5px, env(safe-area-inset-left));
-    background: linear-gradient(to right, #ff00c8, #c7009c, #ff0095, #ff0095, #f700ff, #ff00bf);
-    animation: animationGradient 10s infinite linear;
-    background-size: 200%;
 
-    
+  overflow-x: hidden;
+
+  padding: 5px;
+  background: linear-gradient(to right, #ff00c8, #c7009c, #ff0095, #ff0095, #f700ff, #ff00bf);
+  animation: animationGradient 10s infinite linear;
+  background-size: 200%;
+
+  min-height: 100vh;
+  min-height: 100svh;
+
+  box-sizing: border-box;
+
+  display: flex;
+}
+
+.card{
+
+  flex: 1;               
+  width: 100%;
+  padding: 0 10px 10px 10px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background: black;
+
+  display: flex;
+  flex-direction: column;
+
+  min-height: 0;           
 }
 @keyframes animationGradient{
     0%{
@@ -23,18 +43,6 @@ body{
     100%{
         background-position: 200%;
     }
-}
-
-.card{
-  width: 100%;
-  height: calc(100% - 10px);
-  padding: 0 10px 10px 10px;
-  box-sizing: border-box;
-  border-radius: 6px;
-  background: black;
-
-  display: flex;
-  flex-direction: column;
 }
 
 .heart-center{
